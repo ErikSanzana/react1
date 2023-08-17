@@ -1,6 +1,6 @@
 import React from "react";
 import BootstrapCard from "react-bootstrap/Card";
-import Tag from './Tags'; // Corrige la ruta de importación
+import Tag from "./Tags"; 
 
 function DogCard({ name, image, description, tagText, tagColor }) {
   return (

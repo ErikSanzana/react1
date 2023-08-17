@@ -1,20 +1,20 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header.jsx';
-import DogCard from './components/Card.jsx';
-import Footer from './components/Footer.jsx';
-import uno from './assets/imgs/uno.jpg';
-import dos from './assets/imgs/dos.jpg';
-import tres from './assets/imgs/tres.jpg';
-import cuatro from './assets/imgs/cuatro.jpg';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header.jsx";
+import DogCard from "./components/Card.jsx";
+import Footer from "./components/Footer.jsx";
+import uno from "./assets/imgs/uno.jpg";
+import dos from "./assets/imgs/dos.jpg";
+import tres from "./assets/imgs/tres.jpg";
+import cuatro from "./assets/imgs/cuatro.jpg";
 
 function App() {
   return (
     <>
       <Header title="Adopta un perrito" />
 
-      <DogCard 
+      <DogCard
         image={uno}
         name="perros de carrera"
         description="perros altamente capacitados para largas distancias"
@@ -28,14 +28,14 @@ function App() {
         tagText="Caza"
         tagColor="danger"
       />
-      <DogCard 
+      <DogCard
         image={tres}
         name="perros cieguitos"
         description="perros adiestrados en el arte de guiar personas con discapacidad"
         tagText="Ciego"
         tagColor="info"
       />
-      <DogCard 
+      <DogCard
         image={cuatro}
         name="perros de guerra"
         description="perros entrenados militarmente para conducir tanques sovieticos"
